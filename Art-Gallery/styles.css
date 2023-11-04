@@ -1,0 +1,391 @@
+body{
+    background-color: black;
+    margin: 0%;
+    color: white;
+}
+
+
+
+
+
+
+/* Header Section */
+header{
+    padding-top: 8px;
+    border-bottom: 4px solid rgb(124, 3, 3);
+}
+header nav{
+    display: flex;
+    width: 98%;       
+}
+.navbar-links{
+    position: absolute;
+    right: 48px;
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+.navbar-links li a{
+    color: rgb(240, 140, 140);
+    text-decoration: none;
+    font-size: 22px;
+}
+.dropdown-icon {
+    display: none;
+    position: absolute;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    background-image: url("images/baricon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    text-align: center;
+    font-size: 22px;
+    color: aliceblue;
+    width: 60px;
+    background-color: #070707;
+    padding: 16px;
+    list-style: none;
+    margin: 0;
+    border-bottom: 4px solid rgb(124, 3, 3);
+    
+  }
+  .dropdown-menu li{
+    margin-bottom: 8px;
+  }
+
+  .dropdown-menu li a{
+    color: rgb(240, 140, 140);
+    text-decoration: none;
+   
+  }
+
+/* header Section End */
+
+/* Home Page */  
+
+.welcome-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/bg.avif");
+    text-align: center;
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 40px;
+}
+.welcome-section h1{
+    font-family: 'Dancing Script', cursive,'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    color: black;
+}
+  
+
+.popular-works-section {
+    margin: 24px;
+}
+.popular-works-section h3{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.popular-works-section .art-photos-row{
+   
+    display: flex;
+    gap: 24px;  
+    border-top:2px solid #977f48 ;
+    border-bottom:2px solid #977f48 ;
+    padding:24px 0;
+}
+.art-photo-wrapper{
+  border-top:2px solid #977f48 ;
+    border-bottom:2px solid #977f48 ;
+    padding: 4px 0px;
+ 
+    margin-top: 16px;
+    
+}
+.popular-works-section .art-photos-row a{
+  box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+}
+.popular-works-section .art-photos-row a img{
+    
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    margin-bottom: 24px;
+    transition: transform 0.3s;
+
+}
+.popular-works-section .art-photos-row a img:hover {
+    transform: scale(1.1);
+  }
+
+
+  
+.arrow-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 8px;
+  margin-top: 16px;
+    
+}
+.arrow-container {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.arrow-down {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #fd9f9f;
+  animation: arrowMove 2s infinite, arrowBounce 1s infinite;
+}
+
+@keyframes arrowBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+}
+
+@keyframes arrowMove {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(-50%) translateY(30px);
+  }
+}
+  
+
+
+.view-all-works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #977f48;
+    font-size: 28px;
+    text-decoration: none;
+    margin-bottom: 40px;
+    
+}
+
+
+.about-section-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(124, 3, 3);
+    height: 48px;
+
+}
+
+.about-section-footer a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Home Section end */
+
+
+
+/* Work-Item-Page */
+
+.work-item{
+    text-align: center;
+  
+   
+}
+.work-item img{
+    border:4px solid #977f48;
+    width: 99%;
+    height: 95%;
+}
+.work-item .artwork-details h2{
+    font-family: 'Dancing Script', cursive ,'Arial Narrow', Arial, sans-serif;;
+   
+}
+
+/* Work Item Page end */
+
+
+
+
+
+/* Works Page */
+
+.heading{
+    text-align: center;
+    
+}
+.heading h1{
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.work-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr); /* Change this line to define the number of rows */
+  gap: 16px;
+  
+  align-items: center;
+  justify-content: center;
+}
+  
+  .works-grid a {
+    display: inline-block;
+    overflow: hidden;
+    
+  }
+  
+  .ArtWorkImg {
+    object-fit: cover;
+    width: 250px;
+    height:250px;
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+    border: 0.8px solid rgb(240, 140, 140);
+  }
+  .ArtWorkImg:hover {
+    transform: scale(1.1);
+  }
+
+/* Work page end */
+
+/* About page */
+
+  .about-section{
+    padding: 24px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* Abou Page end */
+
+
+
+
+
+/* Media Queries */
+
+
+
+@media (max-width: 800px) {
+  .works-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 20px;
+    margin: 48px;
+    justify-content: center; /* Center horizontally */
+    align-content: center; /* Center vertically */
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-links {
+    display: none;
+  }
+  .dropdown-icon {
+    display: block;
+    margin-top: 8px;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+
+  .welcome-section{
+     
+      height: 80vh;
+      
+  }
+
+  .navbar-logo a img{
+    width: 80%;
+  }
+  .dropdown-icon {
+    position: absolute;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: url("images/baricon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  .dropdown-menu{
+    top: 60px;
+  }
+
+  .work-section{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .works-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center; 
+      align-content: center; 
+      margin-top: 8px;
+    }
+  .ArtWorkImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  
+}
+
+  

@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+nav{
+   
+    padding-left: 20px;
+    background-color: rgba(53, 52, 52, 0.902);
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.cart{
+    
+    position: relative;
+    padding: 11px;
+    
+    background-color: black;
+}
+.cart i{
+    color: white;
+}
+
+
+
+#cartAmount{
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: red;
+    color: antiquewhite;
+    font-size: 16px;
+}
+
+#btnHolder{
+    display: block;
+    background-color: antiquewhite;
+    padding: 10px;
+    
+}
+
+
+#shop{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vh;
+    margin-top: 8px;
+}
+
+.shop .item{
+    
+    width: 200px;
+    background-color: antiquewhite;
+    height: 320px;
+    margin: 16px;
+    
+
+    
+
+}
+
+.shop .item img{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(183, 183, 174, 0.868);
+}
+
+.shop .item .details{
+    text-align: center;
+}
+.shop .item .details h3{
+    padding:4px;
+    margin: 1px;
+}
+.shop .item .details P{
+    margin: 3px;
+}
+
+.shop .item .details .price-quantity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 16px;
+}
+
+.shop .item .details .buttons{
+   
+    display: flex;
+    align-items: center;
+}
+
+.shop .item .details .buttons i{
+    
+    background-color: rgba(159, 53, 53, 0.842);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.shop .item .details .buttons .quantity{
+    padding: 4px;
+    padding-bottom: 4px;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 22px;
+
+    background-color: white;
+
+}
+
+
+a{
+    color: white;
+}
+#cart_area{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+
+
+#cart_btn{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border: none;
+
+}
+
+.cart_itemss{
+ 
+    background-color: rgba(48, 49, 49, 0.897);
+    position: relative;
+    
+    bottom: 369px;
+    left:1012PX ;
+    width: 252px;
+    
+}
+
+.cart_items{
+    padding-top: 5px;
+    display: flex;
+    
+    padding-left: 8px;
+    
+    margin: 0px;
+    color: white;
+    gap: 16px;
+    
+    
+}
+
+.cart_items h3{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cart_items h4{
+    padding-bottom: 5px;
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+
+#cart_items #cartitemdetails .buttons{
+      display: flex;
+      padding: 5px;
+      gap: 10px;
+      
+}
+#cart_items #cartitemdetails .buttons{
+   
+    display: flex;
+    align-items: center;
+}
+
+#cart_items #cartitemdetails  .buttons i{
+    
+    background-color: rgba(159, 53, 53, 0.842);
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+
+}
+
+#cart_items #cartitemdetails  .buttons .quantity{
+    padding: 2px;
+    padding-bottom: 2px;
+    margin: 2px;
+    border-radius: 4px;
+    font-size: 20px;
+
+    background-color: white;
+
+}

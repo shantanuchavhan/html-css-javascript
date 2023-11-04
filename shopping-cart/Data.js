@@ -1,0 +1,87 @@
+let shopItemsData = [
+    {
+      id: "jfhgbvnscs",
+      name: "Casual Shirt",
+      price: 45,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/img-1.jpg",
+    },
+    {
+      id: "ioytrhndcv",
+      name: "Office Shirt",
+      price: 100,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/img-2.jpg",
+    },
+    {
+      id: "wuefbncxbsn",
+      name: "T Shirt",
+      price: 25,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/img-3.jpg",
+    },
+    {
+      id: "thyfhnbcv",
+      name: "Lovely-tshirt",
+      price: 30,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/Embroidered.WEBP",
+    },
+    {
+      id: "thyfhfbcv",
+      name: "Mens Suit POLO",
+      price: 600,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/0E4A0103.webp",
+    },
+    {
+      id: "thklhcbcv",
+      name: "SANDELS",
+      price: 200,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/black-MODEL.webp",
+    },
+    {
+      id: "moyfhcbcv",
+      name: "STRIPED FLAT KNIT ",
+      price: 300,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/PAULOBLUE.webp",
+    },
+    {
+      id: "atyfhcbcv",
+      name: "Mens Suit",
+      price: 450,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/img-4.jpg",
+    },
+    {
+      id: "jhlfhcbcv",
+      name: "Mens Short Sleeve",
+      price: 300,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/LIGHT-BLUE_1.webp",
+    },
+    {
+      id: "phyfhcbcn",
+      name: "Mens shirt navy",
+      price: 300,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/NAVY_1.webp",
+    },
+    {
+      id: "bhyfhcbck",
+      name: "Mens Short Sleeve",
+      price: 300,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/LIGHT-BLUE_1.webp",
+    },
+    {
+      id: "thyfhcbcv",
+      name: "Mens shirt navy",
+      price: 300,
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      img: "images/NAVY_1.webp",
+    }
+    
+  ];
